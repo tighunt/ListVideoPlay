@@ -9,6 +9,12 @@
     android:background="@android:color/white"
     tools:context="com.brucetoo.listvideoplay.MainActivity">
 
+    <ImageView
+        android:id="@+id/clip_image"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -64,6 +70,13 @@
             android:layout_height="50dp"
             android:onClick="onVideoSupport"
             android:text="List Video Play Surpport"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:onClick="onConstraintLayout"
+            android:text="ConstraintLayout"
             />
     </LinearLayout>
 
